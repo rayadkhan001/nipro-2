@@ -1,0 +1,273 @@
+/*common start*/
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+.c_padding{
+	padding-bottom: 100px;
+}
+/*common end*/
+/*header start*/
+.header{}
+.c_nav{
+	padding: 20px 0;
+}
+.logo{
+	font-size: 30px;
+	font-weight: 400;
+}
+.menu{
+	margin-bottom: 16px;
+}
+.menu_focus:focus {
+    box-shadow: none !important;
+}
+.menu ul li a{
+	margin-right: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	color: #8e8e8e !important;
+	transition: .33s;
+}
+.menu ul li a:hover{
+	transform: scale(1.2);
+}
+.btn_dd{
+	border: 0;
+}
+.btn_dd i{
+	font-size: 16px;
+	color: #8e8e8e;
+}
+.btn_dd::after{
+	display: none;
+}
+.ddm{
+	width: 487px;
+	border-radius: 0;
+	padding: 10px 10px;
+}
+.ddm[data-bs-popper] {
+    top: 50px;
+    left: -466px;
+    margin-top: 0;
+}
+.d_input{
+	width: 100%;
+	height: 40px;
+	border: 0;
+}
+.d_input:focus{
+	box-shadow: none;
+}
+.d_btn{
+	width: 100%;
+	height: 40px;
+	background-color: transparent;
+	border: 0;
+}
+.d_btn i{
+	color: #8e8e8e;
+}
+/*header end*/
+/*slider start*/
+.slider{
+	padding: 15px;
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.s_item{
+	margin: 200px 0 200px;
+	color: white;
+}
+.s_h1{
+	margin-bottom: 50px;
+}
+.s_p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+	line-height: 1.2;
+    word-spacing: 10px;
+}
+.s_btn{
+	font-weight: 600;
+	width: 25%;
+	padding: 20px;
+	transition: .33s;
+}
+.s_btn:hover{
+	color: #8e8e8e;
+}
+.fa-arrow-right:before {
+    margin-left: 10px;
+    font-weight: 700;
+}
+.pre_nex{
+	font-weight: 400;
+	background: transparent;
+	border: 0;
+	transition: .33s;
+}
+.pre_nex:hover{
+	color: #8e8e8e;
+}
+.lat_b{
+	font-family: font-family: 'Lato', sans-serif;
+	font-weight: 500;
+}
+/*slider end*/
+/*service start*/
+.service{
+	padding-bottom: 60px;
+}
+.c_arrow{
+	width: 3px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+.c_text{
+	color: black;
+}
+.sv_item{
+	margin-top: 70px;
+	padding: 70px 15px 35px;
+	border: 1px solid #8e8e8e;
+	text-align: center;
+	transition: .33s;
+}
+.sv_icon{
+	margin: -90px auto 0;
+    width: 65px;
+    background-color: white;
+}
+.sv_icon i{
+	font-size: 60px;
+	color: #8e8e8e;
+}
+.sv_h2{
+	margin: 60px 0 18px;
+	font-size: 18px;
+	color: #333333;
+}
+.sv_hr{
+	width: 100px;
+    margin: 0;
+    border-top: 3px solid #8e8e8e;
+}
+.sv_p{
+	color: #8e8e8e;
+}
+.sv_a{
+	color: #8e8e8e;
+}
+
+.sv_item:hover {
+	border: 1px solid #333333;
+}
+.sv_item:hover .sv_icon i{
+	color: #333333;
+}
+.sv_item:hover .sv_a{
+	color: #333333;
+}
+/*service end*/
+/*about start*/
+.slider2{
+	padding-bottom: 100px;
+}
+.s_img{}
+.s_img img{}
+.bl_c{
+	color: black;
+}
+.s_text{
+	margin-top: 100px;
+}
+.s_text h1{}
+.s_text p{}
+.c_btn{
+	width: 30%;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: .33s;
+}
+.c_btn:hover{
+	background: transparent;
+}
+.a_p{
+	margin-top: 16px;
+	margin-bottom: 16px;
+} 
+.a_p2{
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+/*about end*/
+/*recent start*/
+.recent{
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+.s_img{
+	margin-top: 30px;
+	width: 100%;
+}
+.navbar{}
+.navbar ul{}
+.navbar ul li{}
+.navbar ul li a{
+	color: black;
+	transition: .33s;
+} 
+.navbar ul li a:hover{
+	color: #8e8e8e;
+} 
+/*recent end*/
+/*testimonial start*/
+.testimonial{}
+.c_marg {
+    margin-top: 60px;
+}
+.c_h1{}
+.f_icon{}
+.f_icon i{
+	font-size: 60px;
+}
+.f_text{
+	margin-bottom: 40px;
+}
+.c_h1{
+	margin-top: -62px;
+    margin-left: 74px;
+    margin-bottom: 48px;
+}
+.c_p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+button {
+	margin-bottom: 20px;
+}
+button span i{}
+.sv_hr_c{
+	margin: 10px auto;
+	width: 400px;
+    border-top: 5px solid red#8e8e8e;
+}
+/*testimonial end*/
+/*work with start*/
+.workwith{
+	background-image: url(../img/testimonial.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.c_c{
+	color: #333;
+}
+/*work with end*/
